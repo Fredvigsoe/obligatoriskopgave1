@@ -15,6 +15,13 @@ Opgave 3 Hent mappe detaljer
 Anvendt url: https://api.dropboxapi.com/2/files/get_metadata
 Anvendt HTTP verb: POST
 
+{
+    "include_deleted": false,
+    "include_has_explicit_shared_members": false,
+    "include_media_info": false,
+    "path": "/TestMappe"
+}
+
 Opgave 4 Upload en fil
 
 Anvendt url: https://content.dropboxapi.com/2/files/upload
