@@ -108,6 +108,14 @@ Anvendt HTTP verb: POST
 
 Opgave 10 Brug JavaScript's Fetch med Dropbox API
 
+Se index.html og script.js, har fjernet token ID så det er ikke funktionelt.
+
+Opgave 11
+
+Dropbox API følger REST principperne.
+
+API'et bruger standard HTTP-metoder og statuskoder, det er stateless hvor alle anmodninger har de nødvendige oplysninger. Der er en adskillelse imellem klient og server. Klienten styrer brugergrænsefladen og serveren håndterer datastyring. 
+
 
 
 
